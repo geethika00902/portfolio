@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio - Your Name</title>
+    <meta name="description" content="Personal portfolio of Your Name: projects, skills, and contact.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav">
+            <a href="#home" class="brand" aria-label="Go to home">Avuthu Geethika</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+            <nav id="nav-menu" class="nav-menu" aria-label="Primary">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home" class="site-main">
+        <section class="hero section container" aria-label="Intro">
+            <div class="hero-text">
+                <h1>Hi, I’m <span class="accent">Avuthu Geethika</span></h1>
+                <p class="subtitle">Front-end Developer • Problem Solver • Lifelong Learner</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-media" aria-hidden="true">
+                <img class="avatar" src="assets/me.jpg" alt="Avuthu Geethika">
+            </div>
+        </section>
+
+        <section id="about" class="section container" aria-label="About me">
+            <h2>About</h2>
+            <p>I’m a Computer Science Engineering student with strong skills in Python, Java, and web development.
+I enjoy building projects that solve real-world problems, from full-stack platforms to AI-powered applications.
+With a passion for learning and collaboration, I’m eager to contribute to innovative teams.
+            </p>
+            <ul class="tags" aria-label="Skills">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section container" aria-label="Projects">
+            <h2>Projects</h2>
+            <div class="grid">
+                <article class="card">
+                    <div class="card-media" aria-hidden="true"></div>
+                    <div class="card-body">
+                        <h3> Online Private Tutor System</h3>
+                        <p>Developed a full-stack tutoring platform using Python, JavaScript, and SQL to connect students with private tutors.
+                            Implemented real-time scheduling, subject-based filtering, secure communication, and a feedback/rating system.
+                            Aimed to provide accessible, flexible, and affordable online education to learners</p>
+                        <div class="card-actions">
+                            <a class="btn small" href="#" target="_blank" rel="noopener"></a>
+                            <a class="btn small ghost" href="#" target="_blank" rel="noopener"></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-media" aria-hidden="true"></div>
+                    <div class="card-body">
+                        <h3>Project Two</h3>
+                        <p>Another project highlight. Keep it short and meaningful.</p>
+                        <div class="card-actions">
+                            <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+                            <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="certifications" class="section container" aria-label="Certifications">
+            <h2>Certifications</h2>
+            <div class="grid">
+                <article class="card">
+                    <div class="card-body">
+                        <h3>Python Essentials by Cisco</h3>
+                        <p>Completed Python Essentials certification by Cisco, gaining strong fundamentals of Python, its importance, and hands-on experience in writing programs..</p>
+                        <div class="card-actions">
+                            <a class="btn small ghost" href="#" target="_blank" rel="noopener">View Credential</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-body">
+                        <h3>JavaScript Algorithms and Data Structures</h3>
+                        <p>Covered ES6+, algorithms, and data structures through hands-on projects.</p>
+                        <div class="card-actions">
+                            <a class="btn small ghost" href="#" target="_blank" rel="noopener">View Credential</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section container" aria-label="Contact">
+            <h2>Contact: +91 8247752926</h2>
+            <p>Want to collaborate or just say hi? I’d love to hear from you.</p>
+            <div class="contact-actions">
+                <a class="btn primary" href="mailto:avuthugeethika2005@gmail.com">Email Me</a>
+                <button class="btn ghost" data-copy="avuthugeethika2005@gmail.com" id="copy-email">Copy Email</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> avuthugeethika. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <noscript>JavaScript is disabled. Some interactions may not work.</noscript>
+</body>
+</html>
+
+
